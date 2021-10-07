@@ -43,6 +43,6 @@ class User extends Authenticatable
     ];
 
     public function applications() {
-	return $this->hasMany(ApplicationModel::class, 'email', 'email');
+	return $this->hasMany(ApplicationModel::class/*, 'email', 'email'*/);
     }
 }

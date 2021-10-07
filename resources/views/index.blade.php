@@ -11,6 +11,7 @@
     @else
 	<a href="{{ route('auth_page') }}">registration</a>
 	<a href="{{ route('login_page') }}">login</a>
+	<a href="{{ route('profile_page') }}">sendApplication</a>
     @endif
     <ul>
 	<h1>Users</h1>
